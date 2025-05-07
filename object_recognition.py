@@ -121,8 +121,7 @@ def detect_objects(image_path, conf_threshold=0.5, save_output=True, model_size=
 
 
 if __name__ == "__main__":
-    # Example usage
-    image_path = "example.jpg"
+    image_path = "example2.jpg"
     detected_objects, detection_time = detect_objects(
         image_path,
         conf_threshold=0.4,  # Adjust confidence threshold as needed

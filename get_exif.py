@@ -50,6 +50,6 @@ def get_exif_data(file_path):
         return f"Error reading EXIF data: {e}"
 
 # Example usage
-file_path = "example.jpg" 
+file_path = "example2.jpg"
 exif = get_exif_data(file_path)
 print(exif)
